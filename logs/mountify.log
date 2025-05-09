@@ -1,0 +1,46 @@
+[INFO] Wed May  7 11:44:25 AM EDT 2025: USB device event detected.
+[INFO] Device detected: /dev/sdb1
+[INFO] Wed May  7 11:44:55 AM EDT 2025: USB device event detected.
+[INFO] Device detected: /dev/sdb1
+[INFO] Wed May  7 11:45:16 AM EDT 2025: USB device event detected.
+[INFO] Device detected: /dev/sdb1
+[INFO] Wed May  7 11:45:36 AM EDT 2025: USB device event detected.
+[INFO] Device detected: /dev/sdb1
+[INFO] Wed May  7 11:48:59 AM EDT 2025: Created mount point /media/usb-MOUNTIFY
+[ERROR] Wed May  7 11:48:59 AM EDT 2025: Failed to mount /dev/sdb1
+[INFO] Wed May  7 11:49:42 AM EDT 2025: Created mount point /media/usb-MOUNTIFY
+[ERROR] Wed May  7 11:49:42 AM EDT 2025: Failed to mount /dev/sdb1
+[ERROR] Wed May  7 11:52:25 AM EDT 2025: Failed to mount /dev/sda1
+[INFO] Thu May  8 02:00:49 AM EDT 2025: USB device event detected.
+[INFO] Thu May  8 02:01:09 AM EDT 2025: USB device event detected.
+[INFO] Thu May  8 02:03:34 AM EDT 2025: USB device event detected.
+[INFO] Thu May  8 02:03:49 AM EDT 2025: USB device event detected.
+[ERROR] Thu May  8 02:06:32 AM EDT 2025: Failed to mount /dev/sdb1
+[INFO] Thu May  8 02:07:16 AM EDT 2025: Successfully mounted /dev/sdb1 at /media/usb-MOUNTIFY
+[ERROR] Thu May  8 02:11:39 AM EDT 2025: Failed to mount /dev/sdb1
+[INFO] Detected USB device: /dev/sdb1
+[INFO] Attempting to mount /dev/sdb1 to /mnt/usb...
+[SUCCESS] USB mounted at /mnt/usb
+[INFO] Starting antivirus scan on /dev/sdb1 mounted at /mnt/usb
+[SUCCESS] No threats found on /dev/sdb1. Scan report saved to /mnt/usb/scan_report.txt
+[INFO] Detected USB device: /dev/sdb1
+[INFO] Attempting to mount /dev/sdb1 to /mnt/usb...
+[SUCCESS] USB mounted at /mnt/usb
+[INFO] Starting antivirus scan on /dev/sdb1 mounted at /mnt/usb
+[SUCCESS] No threats found on /dev/sdb1. Scan report saved to /mnt/usb/scan_report.txt
+[INFO] Detected USB device: /dev/sdb1
+[INFO] Attempting to mount /dev/sdb1 to /mnt/usb...
+[SUCCESS] USB mounted at /mnt/usb
+[INFO] Starting antivirus scan on /dev/sdb1 mounted at /mnt/usb
+[SUCCESS] No threats found on /dev/sdb1. Scan report saved to /mnt/usb/scan_report.txt
+[INFO] Detected USB device: /dev/sdb1
+[INFO] Attempting to mount /dev/sdb1 to /mnt/usb...
+[SUCCESS] USB mounted at /mnt/usb
+[INFO] Starting antivirus scan on /dev/sdb1 mounted at /mnt/usb
+[SUCCESS] No threats found on /dev/sdb1. Scan report saved to /mnt/usb/scan_report.txt
+[INFO] Detected USB device: /dev/sdb1
+[INFO] Attempting to mount /dev/sdb1 to /mnt/usb...
+[SUCCESS] USB mounted at /mnt/usb
+[INFO] Starting antivirus scan on /dev/sdb1 mounted at /mnt/usb
+[SUCCESS] No threats found on /dev/sdb1. Scan report saved to /mnt/usb/scan_report.txt
+[ERROR] Fri May  9 07:56:52 AM EDT 2025: Failed to mount /dev/sdb1
