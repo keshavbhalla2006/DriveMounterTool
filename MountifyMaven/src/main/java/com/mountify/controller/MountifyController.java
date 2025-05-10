@@ -3,16 +3,13 @@ package com.mountify.controller;
 import com.mountify.service.MountifyService;
 
 public class MountifyController {
-
     private MountifyService service;
 
     public MountifyController() {
-        service = new MountifyService();
+        this.service = new MountifyService();
     }
 
-    public void performAllOperations() {
+    public void automateMounting() {
         service.mountAndLogUSB();
-        service.sendEmailNotification();
-        service.unmountUSB();
     }
 }

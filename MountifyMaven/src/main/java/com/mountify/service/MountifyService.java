@@ -1,33 +1,13 @@
 package com.mountify.service;
 
-import java.io.IOException;
+import com.mountify.utils.ShellExecutor;
 
 public class MountifyService {
-
-    private static final String SCRIPT_PATH = "../scripts/";
+    private final String SCRIPT_PATH = "../scripts/auto_mount_usb.sh";
 
     public void mountAndLogUSB() {
-        runScript("mount_usb.sh");
-    }
-
-    public void unmountUSB() {
-        runScript("unmount_usb.sh");
-    }
-
-    public void sendEmailNotification() {
-        runScript("notify_popup.sh"); // or replace with actual email script like "email_notify.sh"
-    }
-
-    private void runScript(String scriptName) {
-        try {
-            ProcessBuilder pb = new ProcessBuilder(SCRIPT_PATH + scriptName);
-            pb.inheritIO();
-            Process process = pb.start();
-            int exitCode = process.waitFor();
-            System.out.println(scriptName + " exited with code: " + exitCode);
-        } catch (IOException | InterruptedException e) {
-            System.err.println("Error running script: " + scriptName);
-            e.printStackTrace();
-        }
+        System.out.println("[INFO] Starting automation script...");
+        String output = ShellExecutor.executeShellScript(SCRIPT_PATH);
+        System.out.println("[OUTPUT] " + output);
     }
 }

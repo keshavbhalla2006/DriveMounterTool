@@ -4,7 +4,7 @@ DEVICE="$1"
 
 if [ -z "$DEVICE" ]; then
     echo "[ERROR] No device specified."
-    echo "Usage: $0 /dev/sdX1"
+    echo "Usage: $0 /dev/sdc1"
     exit 1
 fi
 
