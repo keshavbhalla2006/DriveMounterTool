@@ -1,0 +1,9 @@
+com/usbmanager/VirusScanner.class
+com/usbmanager/MainWindow.class
+com/usbmanager/LoginWindow.class
+com/usbmanager/App.class
+com/usbmanager/USBUtils.class
+com/usbmanager/EmailNotifier$1.class
+com/usbmanager/MainWindow$1.class
+com/usbmanager/EmailNotifier.class
+com/usbmanager/DesktopNotifier.class
